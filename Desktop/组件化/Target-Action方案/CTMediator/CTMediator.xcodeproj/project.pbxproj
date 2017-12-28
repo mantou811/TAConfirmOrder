@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D32B4471FF4A284009D97A8 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B4461FF4A283009D97A8 /* CTMediator.m */; };
 		90C7B4BA1E0FB6EF0039B030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B4B91E0FB6EF0039B030 /* main.m */; };
 		90C7B4BD1E0FB6EF0039B030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B4BC1E0FB6EF0039B030 /* AppDelegate.m */; };
 		90C7B4C01E0FB6EF0039B030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B4BF1E0FB6EF0039B030 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D32B4451FF4A283009D97A8 /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		8D32B4461FF4A283009D97A8 /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		90C7B4B51E0FB6EF0039B030 /* CTMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C7B4B91E0FB6EF0039B030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C7B4BB1E0FB6EF0039B030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D32B4441FF4A283009D97A8 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				8D32B4451FF4A283009D97A8 /* CTMediator.h */,
+				8D32B4461FF4A283009D97A8 /* CTMediator.m */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
 		90C7B4AC1E0FB6EF0039B030 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		90C7B4B71E0FB6EF0039B030 /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
+				8D32B4441FF4A283009D97A8 /* CTMediator */,
 				90C7B4BB1E0FB6EF0039B030 /* AppDelegate.h */,
 				90C7B4BC1E0FB6EF0039B030 /* AppDelegate.m */,
 				90C7B4BE1E0FB6EF0039B030 /* ViewController.h */,
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					90C7B4B41E0FB6EF0039B030 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QC98KGCJN9;
 						ProvisioningStyle = Automatic;
 					};
 					90C7B4CD1E0FB6EF0039B030 = {
@@ -276,6 +290,7 @@
 				90C7B4C01E0FB6EF0039B030 /* ViewController.m in Sources */,
 				90C7B4BD1E0FB6EF0039B030 /* AppDelegate.m in Sources */,
 				90C7B4BA1E0FB6EF0039B030 /* main.m in Sources */,
+				8D32B4471FF4A284009D97A8 /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QC98KGCJN9;
 				INFOPLIST_FILE = CTMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BS.CTMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QC98KGCJN9;
 				INFOPLIST_FILE = CTMediator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BS.CTMediator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +524,7 @@
 				90C7B4E41E0FB6EF0039B030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90C7B4E51E0FB6EF0039B030 /* Build configuration list for PBXNativeTarget "CTMediatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +533,7 @@
 				90C7B4E71E0FB6EF0039B030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90C7B4E81E0FB6EF0039B030 /* Build configuration list for PBXNativeTarget "CTMediatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +542,7 @@
 				90C7B4EA1E0FB6EF0039B030 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
